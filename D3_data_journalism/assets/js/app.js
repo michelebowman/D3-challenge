@@ -105,7 +105,7 @@ d3.csv("assets/data/data.csv")
   chartGroup.append("text")
     .attr("transform", `translate(${width/2}, ${height + margin.top +30})`)
     .attr("class", "axisText")
-    .text("Age (%)");
+    .text("Age (Yr)");
 
  }
   )
